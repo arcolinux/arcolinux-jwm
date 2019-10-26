@@ -2,34 +2,22 @@
 <JWM>
 
   <StartupCommand>
-    nitrogen --restore
-    xsetroot -cursor_name left_ptr
-    sxhkd
-    variety
-    nm-applet
-    exec:pamac-tray
-    xfce4-power-manager
-    numlockx on
-    blueberry-tray
-    /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-    /usr/lib/xfce4/notifyd/xfce4-notifyd
-    dropbox
-    insync start
-    discord
-    spotify
+      sh ~/.config/jwm/autostart.sh
   </StartupCommand>
 
     <!-- The root menu. -->
     <RootMenu onroot="13">
         <Program icon="termite" label="Terminal">termite</Program>
+        <Program icon="atom" label="Open jwmrc">atom ~/.jwmrc</Program>
         <Menu icon="folder.svg" label="Applications">
+            <Program icon="thunar" label="Thunar">thunar</Program>
             <Program icon="pragha" label="Pragha">pragha</Program>
             <Program icon="calculator" label="Calculator">galculator</Program>
             <Program icon="gimp" label="Gimp">gimp</Program>
+            <Program icon="meld" label="Meld">meld</Program>
             <Program icon="vivaldi" label="Vivaldi">vivaldi-stable</Program>
             <Program icon="firefox" label="Firefox">firefox</Program>
             <Program icon="nitrogen" label="Nitrogen">nitrogen</Program>
-            <Program icon="thunar" label="Thunar">thunar</Program>
         </Menu>
         <Menu icon="folder.png" label="Utilities">
             <Program icon="font.png" label="Fonts">xfontsel</Program>
@@ -38,9 +26,6 @@
             </Program>
             <Program icon="window.png" label="Window Information">
                 xwininfo | xmessage -file -
-            </Program>
-            <Program icon="atom" label="Open jwmrc">
-                atom ~/.jwmrc
             </Program>
         </Menu>
         <Separator/>
@@ -75,7 +60,7 @@
     <Tray x="0" y="-1" autohide="off">
 
         <TrayButton icon="/home/erik/.config/jwm/start-here-arcolinux.svg">root:1</TrayButton>
-        <Spacer width=""/>
+        <Spacer width="2"/>
         <TrayButton label="_">showdesktop</TrayButton>
         <Spacer width="2"/>
 
