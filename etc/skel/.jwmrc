@@ -82,7 +82,7 @@
         <Foreground>#FFFFFF</Foreground>
         <Background>#555555</Background>
         <Outline>#000000</Outline>
-        <Opacity>0.5</Opacity>
+        <Opacity>1</Opacity>
         <Active>
             <Foreground>#FFFFFF</Foreground>
             <Background>#404552</Background>
@@ -95,7 +95,7 @@
         <Background>#383c4a</Background>
         <Foreground>#FFFFFF</Foreground>
         <Outline>#000000</Outline>
-        <Opacity>0.75</Opacity>
+        <Opacity>0.9</Opacity>
     </TrayStyle>
     <TaskListStyle>
       <Font>NotoSans-11</Font>
@@ -125,7 +125,7 @@
             <Foreground>#FFFFFF</Foreground>
             <Background>#5294e2</Background>
         </Active>
-        <Opacity>0.85</Opacity>
+        <Opacity>0.9</Opacity>
     </MenuStyle>
     <PopupStyle>
         <Font>NotoSans-11</Font>
