@@ -87,7 +87,7 @@
             <Foreground>#FFFFFF</Foreground>
             <Background>#404552</Background>
             <Outline>#000000</Outline>
-            <Opacity>1.0</Opacity>
+            <Opacity>1</Opacity>
         </Active>
     </WindowStyle>
     <TrayStyle group="true" list="all">
@@ -200,5 +200,6 @@
     <Key mask="4" key="x">exec:oblogout</Key>
     <Key mask="4S" key="d">exec:dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'</Key>
     <Key mask="4S" key="Return">exec:thunar</Key>
+    <Key mask="4S" key="s">exec:pkill -USR1 -x sxhkd</Key>
 
 </JWM>
