@@ -6,7 +6,7 @@
   </StartupCommand>
 
     <!-- The root menu. -->
-    <RootMenu onroot="13">
+    <RootMenu onroot="3">
         <Program icon="termite" label="Terminal">termite</Program>
         <Program icon="atom" label="Open jwmrc">atom ~/.jwmrc</Program>
         <Menu icon="folder.svg" label="Applications">
@@ -59,7 +59,7 @@
     <!-- Tray at the bottom. -->
     <Tray x="0" y="-1" autohide="off">
 
-        <TrayButton icon="/home/erik/.config/jwm/start-here-arcolinux.svg">root:1</TrayButton>
+        <TrayButton icon="/home/erik/.config/jwm/start-here-arcolinux.svg">root:3</TrayButton>
         <Spacer width="2"/>
         <TrayButton label="_">showdesktop</TrayButton>
         <Spacer width="2"/>
