@@ -145,13 +145,13 @@ super + shift + s
 # CONTROL + ALT KEYS
 #################################################################
 
-#am-rotate-conky
+#conky-rotate
 ctrl + alt + Next
-     am-rotate-conky -n
+     conky-rotate -n
 
-#am-rotate-conky
+#conky-rotate
 ctrl + alt + Prior
-    am-rotate-conky -p
+    conky-rotate -p
 
 #Atom
 ctrl + alt + w
