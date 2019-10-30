@@ -1,40 +1,19 @@
 <?xml version="1.0"?>
 <JWM>
-
   <StartupCommand>
       sh ~/.config/jwm/autostart.sh
   </StartupCommand>
 
     <!-- The root menu. -->
     <RootMenu onroot="3">
-        <Program icon="termite" label="Terminal">termite</Program>
-        <Program icon="atom" label="Open jwmrc">atom ~/.jwmrc</Program>
-        <Menu icon="folder.svg" label="Applications">
-            <Program icon="thunar" label="Thunar">thunar</Program>
-            <Program icon="pragha" label="Pragha">pragha</Program>
-            <Program icon="calculator" label="Calculator">galculator</Program>
-            <Program icon="gimp" label="Gimp">gimp</Program>
-            <Program icon="meld" label="Meld">meld</Program>
-            <Program icon="vivaldi" label="Vivaldi">vivaldi-stable</Program>
-            <Program icon="firefox" label="Firefox">firefox</Program>
-            <Program icon="nitrogen" label="Nitrogen">nitrogen</Program>
-            <Program icon="xfce4-taskmanager" label="Xfce4-taskmanager">xfce4-taskmanager</Program>
-        </Menu>
-        <Menu icon="folder.png" label="Utilities">
-            <Program icon="font.png" label="Fonts">xfontsel</Program>
-            <Program icon="window.png" label="Window Properties">
-                xprop | xmessage -file -
-            </Program>
-            <Program icon="window.png" label="Window Information">
-                xwininfo | xmessage -file -
-            </Program>
-        </Menu>
+	<Include>exec:xdgmenumaker -n -f jwm</Include>
         <Separator/>
         <Program icon="lock.png" label="Lock">
             slimlock
         </Program>
         <Separator/>
-        <Restart label="Restart" icon="restart.png"/>
+	<Program icon="atom" label="Open .jwmrc">atom ~/.jwmrc</Program>
+        <Restart label="Restart JWM" icon="restart.png"/>
         <Exit label="Exit" confirm="true" icon="quit.png"/>
     </RootMenu>
 
