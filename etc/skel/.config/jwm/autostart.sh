@@ -17,7 +17,7 @@ feh --bg-scale /usr/share/backgrounds/arcolinux/escape-to-italy-1920x1200.jpg &
 #feh --randomize --bg-fill ~/Dropbox/Apps/Desktoppr/*
 
 xsetroot -cursor_name left_ptr &
-sxhkd ~/.config/jwm/sxhkd/sxhkrc &
+sxhkd ~/.config/jwm/sxhkd/sxhkdrc &
 run variety &
 run nm-applet &
 run pamac-tray &
