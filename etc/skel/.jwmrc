@@ -18,6 +18,7 @@
             <Program icon="vivaldi" label="Vivaldi">vivaldi-stable</Program>
             <Program icon="firefox" label="Firefox">firefox</Program>
             <Program icon="nitrogen" label="Nitrogen">nitrogen</Program>
+            <Program icon="xfce4-taskmanager" label="Xfce4-taskmanager">xfce4-taskmanager</Program>
         </Menu>
         <Menu icon="folder.png" label="Utilities">
             <Program icon="font.png" label="Fonts">xfontsel</Program>
@@ -200,6 +201,7 @@
     <Key mask="4" key="x">exec:oblogout</Key>
     <Key mask="4S" key="d">exec:dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'</Key>
     <Key mask="4S" key="Return">exec:thunar</Key>
+    <Key mask="CS" key="Escape">exec:xfce4-taskmanager</Key>
     <Key mask="4S" key="s">exec:pkill -USR1 -x sxhkd</Key>
 
 </JWM>
