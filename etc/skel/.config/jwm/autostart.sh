@@ -10,7 +10,6 @@ function run {
 #change your keyboard if you need it
 #setxkbmap -layout be
 
-feh --bg-scale /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
 xsetroot -cursor_name left_ptr &
 sxhkd -c ~/.config/jwm/sxhkd/sxhkdrc &
 run variety &
