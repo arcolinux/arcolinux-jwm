@@ -74,17 +74,17 @@ super + c
 super + h
     urxvt 'htop task manager' -e htop
 
-#Oblogout
+#arcolinux-logout
 super + x
-    oblogout
+    arcolinux-logout
 
-#Oblogout
+#arcolinux-logout
 super + Pause
-    oblogout
+    arcolinux-logout
 
-#Oblogout
+#arcolinux-logout
 ctrl + alt + Delete
-   oblogout
+   arcolinux-logout
 
 #Rofi theme selector
 super + r
@@ -180,13 +180,13 @@ ctrl + alt + f
 ctrl + alt + i
      nitrogen
 
-#slim-lock
+#betterlockscreen
 ctrl + alt + k
-     slimlock
+     betterlockscreen -l dimblur
 
-#Slimlock
+#betterlockscreen
 ctrl + alt + l
-    slimlock
+    betterlockscreen -l dimblur
 
 #Pamac-manager
 ctrl + alt + p
