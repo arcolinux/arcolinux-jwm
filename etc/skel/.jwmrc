@@ -9,7 +9,7 @@
 	<Include>exec:xdgmenumaker -n -f jwm</Include>
         <Separator/>
         <Program icon="lock.png" label="Lock">
-            slimlock
+            betterlockscreen -l dimblur
         </Program>
         <Separator/>
 	<Program icon="atom" label="Open .jwmrc">atom ~/.jwmrc</Program>
@@ -179,7 +179,7 @@
 
     <Key mask="CA" key="t">exec:termite</Key>
     <Key mask="4S" key="r">exec:jwm -restart</Key>
-    <Key mask="4" key="x">exec:oblogout</Key>
+    <Key mask="4" key="x">exec:arcolinux-oblogout</Key>
     <Key mask="4S" key="d">exec:dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'</Key>
     <Key mask="4S" key="Return">exec:thunar</Key>
     <Key mask="CS" key="Escape">exec:xfce4-taskmanager</Key>
