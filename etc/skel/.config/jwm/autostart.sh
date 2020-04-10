@@ -6,7 +6,7 @@ function run {
     $@&
   fi
 }
-autorandr horizontal
+#autorandr horizontal
 #change your keyboard if you need it
 #setxkbmap -layout be
 # start ArcoLinux Welcome  App
