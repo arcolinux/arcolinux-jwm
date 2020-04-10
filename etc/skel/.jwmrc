@@ -172,6 +172,8 @@
 
     <Key mask="A" key="Tab">nextstacked</Key>
     <Key mask="A" key="F4">close</Key>
+    <Key mask="4" key="q">close</Key>
+    <Key mask="4S" key="q">close</Key>
     <Key mask="A" key="#">desktop#</Key>
     <Key mask="A" key="F1">root:3</Key>
     <Key mask="A" key="F2">window</Key>
