@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# more info on http://joewing.net/projects/jwm/config-2.3.html
 function run {
   if ! pgrep $1 ;
   then
