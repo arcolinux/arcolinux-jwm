@@ -8,12 +8,16 @@
     <RootMenu onroot="3">
 	<Include>exec:xdgmenumaker -n -f jwm</Include>
         <Separator/>
-        <Program icon="lock.png" label="Lock">
+        <Program icon="lock" label="Lock">
             betterlockscreen -l dimblur
         </Program>
         <Separator/>
-	<Program icon="sublime-text" label="Open .jwmrc">subl3 ~/.jwmrc</Program>
-	<Program icon="sublime-text" label="Open .jwmrc">subl3 ~/.config/jwm/sxhkd</Program>
+        <Program icon="terminal" label="Terminal">
+            termite
+        </Program>
+        <Separator/>   
+	<Program icon="sublime-text" label="Open jwmrc">subl3 ~/.jwmrc</Program>
+	<Program icon="sublime-text" label="Open sxhkdrc">subl3 ~/.config/jwm/sxhkd/sxhkdrc</Program>
         <Restart label="Restart JWM" icon="restart.png"/>
         <Exit label="Exit" confirm="true" icon="quit.png"/>
     </RootMenu>
