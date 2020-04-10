@@ -12,7 +12,8 @@
             betterlockscreen -l dimblur
         </Program>
         <Separator/>
-	<Program icon="atom" label="Open .jwmrc">atom ~/.jwmrc</Program>
+	<Program icon="sublime-text" label="Open .jwmrc">subl3 ~/.jwmrc</Program>
+	<Program icon="sublime-text" label="Open .jwmrc">subl3 ~/.config/jwm/sxhkd</Program>
         <Restart label="Restart JWM" icon="restart.png"/>
         <Exit label="Exit" confirm="true" icon="quit.png"/>
     </RootMenu>
@@ -179,10 +180,10 @@
 
     <Key mask="CA" key="t">exec:termite</Key>
     <Key mask="4S" key="r">exec:jwm -restart</Key>
-    <Key mask="4" key="x">exec:arcolinux-oblogout</Key>
+    <Key mask="4" key="x">exec:arcolinux-logout</Key>
     <Key mask="4S" key="d">exec:dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'</Key>
     <Key mask="4S" key="Return">exec:thunar</Key>
     <Key mask="CS" key="Escape">exec:xfce4-taskmanager</Key>
-    <Key mask="4S" key="s">exec:pkill -USR1 -x sxhkd</Key>
+    <Key mask="4S" key="s">exec:arcolinux-logout</Key>
 
 </JWM>
