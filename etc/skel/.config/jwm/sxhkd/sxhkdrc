@@ -132,7 +132,7 @@ super + shift + Return
 super + shift + d
 	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
 
-#reload sxhkd:
+#reload sxhkd
 super + shift + s
 	pkill -USR1 -x sxhkd
 
@@ -151,7 +151,7 @@ ctrl + alt + w
 
 #arcolinux-tweak-tool
 ctrl + alt + e
-    arcolinux-tweak-tool     
+    arcolinux-tweak-tool
 
 #conky-rotate
 ctrl + alt + Next
@@ -194,6 +194,14 @@ ctrl + alt + k
 
 #betterlockscreen
 ctrl + alt + l
+    betterlockscreen -l dimblur
+
+#betterlockscreen
+super + k
+    betterlockscreen -l dimblur
+
+#betterlockscreen
+super + l
     betterlockscreen -l dimblur
 
 #Pamac-manager
@@ -276,8 +284,8 @@ alt + Down
     variety --resume
 
 #Gmrun
-alt + F2
-    gmrun
+#alt + F2
+#    gmrun
 
 #Xfce4-appfinder
 alt + F3
