@@ -22,23 +22,26 @@
       <Program icon="exit" label="Exit">arcolinux-logout</Program>
     </RootMenu>
     <!-- Options for program groups. -->
+        <!--
     <Group>
         <Option>tiled</Option>
+    </Group>
+ 	-->
+    <Group>
         <Option>aerosnap</Option>
-    </Group>
-    <Group>
-        <Class>Pidgin</Class>
-        <Option>sticky</Option>
-    </Group>
-    <Group>
-        <Name>xterm</Name>
-        <Option>vmax</Option>
     </Group>
     <Group>
         <Name>xclock</Name>
         <Option>drag</Option>
         <Option>notitle</Option>
     </Group>
+    <!--centered applications -->
+    <Group>
+        <Class>Termite</Class>
+        <Class>URxvt</Class>
+        <Option>centered</Option>
+    </Group>
+
 
     <!-- Tray at the bottom. -->
     <Tray x="0" y="-1" autohide="off">
@@ -47,11 +50,8 @@
         <Spacer width="2"/>
         <TrayButton label="_">showdesktop</TrayButton>
         <Spacer width="2"/>
-
         <Pager labeled="true"/>
-
         <TaskList maxwidth="256"/>
-
         <Dock/>
         <Clock format="%H:%M"><Button mask="123">exec:xclock</Button></Clock>
 
