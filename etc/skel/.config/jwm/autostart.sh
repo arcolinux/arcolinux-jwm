@@ -6,13 +6,14 @@ function run {
     $@&
   fi
 }
-
+autorandr horizontal
 #change your keyboard if you need it
 #setxkbmap -layout be
 # start ArcoLinux Welcome  App
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 xsetroot -cursor_name left_ptr &
 sxhkd -c ~/.config/jwm/sxhkd/sxhkdrc &
+run volumeicon &
 run variety &
 run nm-applet &
 run pamac-tray &
