@@ -10,12 +10,9 @@
       <Program icon="lock" label="Lock">
         betterlockscreen -l dimblur
       </Program>
-      <Separator/>
       <Program icon="terminal" label="Terminal">
         termite
       </Program>
-      <Separator/>
-      <Separator/>
       <Program icon="thunar" label="Filemanager">
         thunar
       </Program>
