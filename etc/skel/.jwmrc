@@ -15,6 +15,11 @@
         termite
       </Program>
       <Separator/>
+      <Separator/>
+      <Program icon="thunar" label="Filemanager">
+        thunar
+      </Program>
+      <Separator/>
 	    <Program icon="sublime-text" label="Open jwmrc">subl3 ~/.jwmrc</Program>
 	    <Program icon="sublime-text" label="Open sxhkdrc">subl3 ~/.config/jwm/sxhkd/sxhkdrc</Program>
       <Restart label="Restart JWM" icon="restart.png"/>
