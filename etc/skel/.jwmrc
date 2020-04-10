@@ -7,9 +7,6 @@
     <RootMenu onroot="3">
       <Include>exec:xdgmenumaker -n -f jwm</Include>
       <Separator/>
-      <Program icon="lock" label="Lock">
-        betterlockscreen -l dimblur
-      </Program>
       <Program icon="terminal" label="Terminal">
         termite
       </Program>
@@ -19,6 +16,8 @@
       <Separator/>
 	    <Program icon="sublime-text" label="Open jwmrc">subl3 ~/.jwmrc</Program>
 	    <Program icon="sublime-text" label="Open sxhkdrc">subl3 ~/.config/jwm/sxhkd/sxhkdrc</Program>
+      <Separator/>
+      <Program icon="lock" label="Lock">betterlockscreen -l dimblur</Program>
       <Restart label="Restart JWM" icon="restart.png"/>
       <Program icon="exit" label="Exit">arcolinux-logout</Program>
     </RootMenu>
