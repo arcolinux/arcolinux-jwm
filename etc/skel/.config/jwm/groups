@@ -20,4 +20,20 @@
         <Class>Xdgmenumaker</Class>
         <Option>opacity:0.8</Option>        
     </Group>
+    <Group>
+        <Name>pcmanfm</Name>
+        <Option>centered</Option>
+    </Group>
+    <Group>
+        <Name>nemo</Name>
+        <Option>centered</Option>
+    </Group>
+    <Group>
+        <Name>firefox</Name>
+        <Option>maximized</Option>
+    </Group>
+    <Group>
+        <Name>chromium</Name>
+        <Option>maximized</Option>
+    </Group>
 </JWM>

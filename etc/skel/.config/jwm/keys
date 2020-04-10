@@ -23,6 +23,10 @@
     <Key mask="A" key="Left">ldesktop</Key>
     <Key mask="A" key="Up">udesktop</Key>
     <Key mask="A" key="Down">ddesktop</Key>
+    <Key mask="CA" key="Right">rdesktop</Key>
+    <Key mask="CA" key="Left">ldesktop</Key>
+    <Key mask="SA" key="Right">sendr</Key>
+    <Key mask="SA" key="Left">sendl</Key>
 
     <!-- CTRL + ALT +  -->
     <Key mask="CA" key="t">exec:termite</Key>
@@ -37,4 +41,11 @@
 
     <!-- CTRL =+ SHIFT + -->
     <Key mask="CS" key="Escape">exec:xfce4-taskmanager</Key>
+
+    <!-- Key resize -->
+    <Key mask="4" key="Up">maxtop</Key>
+    <Key mask="4" key="Down">maxbottom</Key>
+    <Key mask="4" key="Left">maxleft</Key>
+    <Key mask="4" key="Right">maxright</Key>
+
 </JWM>

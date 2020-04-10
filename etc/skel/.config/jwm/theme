@@ -2,7 +2,7 @@
 <JWM>
     <!-- Visual Styles -->
     <WindowStyle>
-        <Font>Noto NotoSans-11:bold</Font>
+        <Font align="center">Noto NotoSans-11:bold</Font>
         <Width>4</Width>
         <Height>26</Height>
         <Corner>5</Corner>
@@ -17,6 +17,7 @@
             <Opacity>1</Opacity>
         </Active>
     </WindowStyle>
+
     <TrayStyle group="true" list="all">
         <Font>NotoSans-11</Font>
         <Background>#383c4a</Background>
@@ -24,6 +25,7 @@
         <Outline>#000000</Outline>
         <Opacity>0.9</Opacity>
     </TrayStyle>
+
     <TaskListStyle>
       <Font>NotoSans-11</Font>
       <Active>
@@ -33,8 +35,10 @@
       <Foreground>#FFFFFF</Foreground>
       <Background>#333333</Background>
     </TaskListStyle>
+
     <PagerStyle>
         <Outline>#000000</Outline>
+        <Font>NotoSans-11</Font>
         <Foreground>#555555</Foreground>
         <Background>#333333</Background>
         <Text>#FFFFFF</Text>
@@ -43,6 +47,7 @@
             <Background>#004488</Background>
         </Active>
     </PagerStyle>
+
     <MenuStyle>
         <Font>NotoSans-11</Font>
         <Foreground>#FFFFFF</Foreground>
@@ -54,6 +59,7 @@
         </Active>
         <Opacity>0.9</Opacity>
     </MenuStyle>
+
     <PopupStyle>
         <Font>NotoSans-11</Font>
         <Foreground>#000000</Foreground>
