@@ -7,19 +7,19 @@
     <RootMenu onroot="3">
       <Include>exec:xdgmenumaker -n -f jwm</Include>
       <Separator/>
-      <Program icon="terminal" label="Terminal">
+      <Program label="Terminal">
         termite
       </Program>
-      <Program icon="thunar" label="Filemanager">
+      <Program label="Filemanager">
         thunar
       </Program>
       <Separator/>
-	    <Program icon="sublime-text" label="Open jwmrc">subl3 ~/.jwmrc</Program>
-	    <Program icon="sublime-text" label="Open sxhkdrc">subl3 ~/.config/jwm/sxhkd/sxhkdrc</Program>
+	    <Program label="Open jwmrc">subl3 ~/.jwmrc</Program>
+	    <Program label="Open sxhkdrc">subl3 ~/.config/jwm/sxhkd/sxhkdrc</Program>
       <Separator/>
-      <Program icon="lock" label="Lock">betterlockscreen -l dimblur</Program>
-      <Restart label="Restart JWM" icon="restart.png"/>
-      <Program icon="exit" label="Exit">arcolinux-logout</Program>
+      <Program label="Lock">betterlockscreen -l dimblur</Program>
+      <Restart label="Restart JWM"/>
+      <Program label="Exit">arcolinux-logout</Program>
     </RootMenu>
     <!-- Options for program groups. -->
         <!--
@@ -41,11 +41,11 @@
         <Class>URxvt</Class>
         <Class>Xfce4-terminal</Class>
         <Option>centered</Option>
-        <Option>opacity:0.8</Option>        
+        <Option>opacity:0.8</Option>
     </Group>
     <Group>
         <Class>Xdgmenumaker</Class>
-        <Option>opacity:0.8</Option>        
+        <Option>opacity:0.8</Option>
     </Group>
 
 
