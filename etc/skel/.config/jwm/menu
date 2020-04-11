@@ -13,7 +13,6 @@
 
 	    <Program label="Jwm folder">thunar ~/.config/jwm</Program>
       <Separator/>
-      <Program label="Lock">betterlockscreen -l dimblur</Program>
       <Restart label="Restart JWM"/>
       <Program label="Exit">arcolinux-logout</Program>
     </RootMenu>
