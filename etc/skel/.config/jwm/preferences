@@ -25,4 +25,9 @@
 
     <!-- The resize mode (outline or opaque) -->
     <ResizeMode>opaque</ResizeMode>
+
+    <!-- No coordinates of x and y displayed -->
+    <MoveMode coordinates="off">opaque</MoveMode>
+    <ResizeMode coordinates="off">outline</ResizeMode>
+    
 </JWM>
