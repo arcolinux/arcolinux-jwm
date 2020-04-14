@@ -401,9 +401,9 @@ XF86MonBrightnessDown
 # CTRL + ALT KEYS
 #################################################################
 
-#Compton Toggle
+#Picom Toggle
 ctrl + alt + o
-    ~/.config/jwm/scripts/compton-toggle.sh
+    ~/.config/jwm/scripts/picom-toggle.sh
 
 #################################################################
 # SUPER + KEYS
