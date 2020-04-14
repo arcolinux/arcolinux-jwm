@@ -78,14 +78,6 @@ super + h
 super + x
     arcolinux-logout
 
-#arcolinux-logout
-super + Pause
-    arcolinux-logout
-
-#arcolinux-logout
-ctrl + alt + Delete
-   arcolinux-logout
-
 #Rofi theme selector
 super + r
     rofi-theme-selector
@@ -188,21 +180,13 @@ ctrl + alt + f
 ctrl + alt + i
      nitrogen
 
-#betterlockscreen
+#arcolinux-logout
 ctrl + alt + k
-     betterlockscreen -l dimblur
+     arcolinux-logout
 
 #betterlockscreen
 ctrl + alt + l
-    betterlockscreen -l dimblur
-
-#betterlockscreen
-super + k
-    betterlockscreen -l dimblur
-
-#betterlockscreen
-super + l
-    betterlockscreen -l dimblur
+    arcolinux-logout
 
 #Pamac-manager
 ctrl + alt + p
@@ -427,7 +411,7 @@ ctrl + alt + o
 
 #kill
 super + q
-	
+
 
 #################################################################
 # SUPER KEYS
