@@ -7,7 +7,7 @@
         <TrayButton label="_">showdesktop</TrayButton>
         <Spacer width="2"/>
         <Pager labeled="true"/>
-        <TaskList maxwidth="130"/>
+        <TaskList maxwidth="150"/>
         <Dock/>
         <Clock format="%H:%M"><Button mask="123">exec:xclock</Button></Clock>
     </Tray>

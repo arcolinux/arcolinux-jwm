@@ -1,79 +1,102 @@
 <?xml version="1.0"?>
 <JWM>
     <!-- Visual Styles -->
+    <!-- http://joewing.net/projects/jwm/config-2.3.html#window  -->
     <WindowStyle>
-        <Font align="center">Noto NotoSans-11:bold</Font>
-        <Width>4</Width>
-        <Height>26</Height>
-        <Corner>5</Corner>
+      <Font align="center">Noto NotoSans-11:bold</Font>
+      <Width>4</Width>
+      <Height>26</Height>
+      <Corner>5</Corner>
+      <Foreground>#FFFFFF</Foreground>
+      <Background>#555555</Background>
+      <Outline>#000000</Outline>
+      <Opacity>1</Opacity>
+      <Active>
         <Foreground>#FFFFFF</Foreground>
-        <Background>#555555</Background>
+        <Background>#404552</Background>
         <Outline>#000000</Outline>
         <Opacity>1</Opacity>
-        <Active>
-            <Foreground>#FFFFFF</Foreground>
-            <Background>#404552</Background>
-            <Outline>#000000</Outline>
-            <Opacity>1</Opacity>
-        </Active>
+      </Active>
     </WindowStyle>
 
-    <TrayStyle group="true" list="all">
-        <Font>NotoSans-11</Font>
-        <Background>#383c4a</Background>
+    <ClockStyle>
+      <Font>NotoSans-11</Font>
+      <Background>#383c4a</Background>
+      <Foreground>#FFFFFF</Foreground>
+    </ClockStyle>
+
+    <TrayStyle group="true" list="all" decorations="flat">
+      <Font>NotoSans-11</Font>
+      <Foreground>#FFFFFF</Foreground>
+      <Background>#383c4a</Background>
+      <Outline>#000000</Outline>
+      <Active>
         <Foreground>#FFFFFF</Foreground>
-        <Outline>#000000</Outline>
-        <Opacity>0.9</Opacity>
+        <Background>#404552</Background>
+        <Outline>#ff0000</Outline>
+      </Active>
+      <Opacity>0.9</Opacity>
     </TrayStyle>
 
-    <TaskListStyle>
+    <TaskListStyle decorations="flat">
       <Font>NotoSans-11</Font>
+      <Foreground>#FFFFFF</Foreground>
+      <Background>#333333</Background>
+      <Outline>#000000</Outline>
       <Active>
         <Foreground>#FFFFFF</Foreground>
         <Background>#555555</Background>
+        <Outline>#000000</Outline>
       </Active>
-      <Foreground>#FFFFFF</Foreground>
-      <Background>#333333</Background>
     </TaskListStyle>
 
+    <TrayButtonStyle group="true" list="all" decorations="flat">
+      <Font>NotoSans-11</Font>
+      <Foreground>#FFFFFF</Foreground>
+      <Background>#383c4a</Background>
+      <Outline>#000000</Outline>
+      <Active>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#404552</Background>
+        <Outline>#ff0000</Outline>
+      </Active>
+    </TrayButtonStyle>
+
     <PagerStyle>
-        <Outline>#000000</Outline>
-        <Font>NotoSans-11</Font>
-        <Foreground>#555555</Foreground>
-        <Background>#333333</Background>
-        <Text>#FFFFFF</Text>
-        <Active>
-            <Foreground>#0077CC</Foreground>
-            <Background>#004488</Background>
-        </Active>
+      <Outline>#000000</Outline>
+      <Foreground>#555555</Foreground>
+      <Background>#333333</Background>
+      <Text>#FFFFFF</Text>
+      <Font>NotoSans-11</Font>
+      <Active>
+        <Foreground>#0077CC</Foreground>
+        <Background>#004488</Background>
+      </Active>
     </PagerStyle>
 
-    <MenuStyle>
-        <Font>NotoSans-11</Font>
+    <MenuStyle decorations="flat">
+      <Font>NotoSans-11</Font>
+      <Foreground>#FFFFFF</Foreground>
+      <Background>#333333</Background>
+      <Outline>#000000</Outline>
+      <Active>
         <Foreground>#FFFFFF</Foreground>
-        <Background>#333333</Background>
-        <Outline>#000000</Outline>
-        <Active>
-            <Foreground>#FFFFFF</Foreground>
-            <Background>#5294e2</Background>
-        </Active>
-        <Opacity>0.9</Opacity>
+        <Background>#5294e2</Background>
+      </Active>
+      <Opacity>0.9</Opacity>
     </MenuStyle>
 
-    <PopupStyle>
-        <Font>NotoSans-11</Font>
-        <Foreground>#000000</Foreground>
-        <Background>#999999</Background>
+    <PopupStyle enabled="true" delay="600">
+      <Font>NotoSans-11</Font>
+      <Outline>#000000</Outline>
+      <Foreground>#000000</Foreground>
+      <Background>#999999</Background>
     </PopupStyle>
 
-    <!-- Path where icons can be found.
-         IconPath can be listed multiple times to allow searching
-         for icons in multiple paths.
-      -->
     <IconPath>
-        /usr/share/icons/Surfn-Arc/
+      /usr/share/icons/Surfn-Arc/
     </IconPath>
     <IconPath>
-        /usr/share/jwm
+      /usr/share/jwm
     </IconPath>
 </JWM>
