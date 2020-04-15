@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <JWM>
      <!-- Tray at the bottom. -->
-    <Tray x="0" y="-1" autohide="off">
+    <Tray x="0" y="-1" autohide="off" height="30" layer="above" halign="left" valign="bottom">
         <TrayButton label="ArcoLinux" icon="/usr/share/icons/hicolor/20x20/places/start-here-arcolinux.svg">root:3</TrayButton>
         <Spacer width="2"/>
         <TrayButton label="_">showdesktop</TrayButton>
         <Spacer width="2"/>
         <Pager labeled="true"/>
-        <TaskList maxwidth="100"/>
+        <TaskList maxwidth="130"/>
         <Dock/>
         <Clock format="%H:%M"><Button mask="123">exec:xclock</Button></Clock>
     </Tray>
