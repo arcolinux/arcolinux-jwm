@@ -10,7 +10,6 @@
     </Group>
     <!--centered applications -->
     <Group>
-        <Class>Termite</Class>
         <Class>URxvt</Class>
         <Class>Xfce4-terminal</Class>
         <Option>centered</Option>

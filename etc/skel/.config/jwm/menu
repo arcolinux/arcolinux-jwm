@@ -5,7 +5,7 @@
         thunar
       </Program>
       <Program label="Terminal">
-        termite
+        urxvt
       </Program>
       <Separator/>
       <Include>exec:xdgmenumaker -n -f jwm</Include>
