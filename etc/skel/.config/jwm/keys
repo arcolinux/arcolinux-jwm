@@ -27,7 +27,7 @@
     <Key mask="SA" key="Left">sendl</Key>
 
     <!-- CTRL + ALT +  -->
-    <Key mask="CA" key="t">exec:termite</Key>
+    <Key mask="CA" key="t">exec:urxvt</Key>
 
     <!-- SUPER (4) + -->
     <Key mask="4" key="q">close</Key>
