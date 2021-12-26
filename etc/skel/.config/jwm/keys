@@ -31,7 +31,7 @@
 
     <!-- SUPER (4) + -->
     <Key mask="4" key="q">close</Key>
-    <Key mask="4S" key="q">close</Key>
+    <Key mask="4S" key="Q">close</Key>
     <Key mask="4S" key="r">exec:jwm -restart</Key>
     <Key mask="4" key="x">exec:arcolinux-logout</Key>
     <Key mask="4S" key="d">exec:dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'</Key>
