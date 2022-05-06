@@ -14,6 +14,6 @@
 	    <Program label="Jwm folder">thunar ~/.config/jwm</Program>
       <Separator/>
       <Restart label="Restart Jwm"/>
-      <Program label="Exit">arcolinux-logout</Program>
+      <Program label="Exit">archlinux-logout</Program>
     </RootMenu>
 </JWM>
