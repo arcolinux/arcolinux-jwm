@@ -32,4 +32,3 @@ picom --config $HOME/.config/jwm/picom.conf &
 #run insync start &
 #run discord &
 #run spotify &
-#run atom &
